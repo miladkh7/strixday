@@ -137,7 +137,7 @@ def handle(msg):
     db.session.commit()
     bot.sendMessage(chat_id, text= ss )
 
-bot = telepot.Bot('375977039:AAFOsgDE7kv9K9hRCHA1UOofhGjbxSXv4LA')
+bot = telepot.Bot('497132515:AAEv0n6J5iSbuu4LNFHmdojif6THnjYwKCI')
 bot.message_loop(handle)
 print ('I am listening ...')
 
